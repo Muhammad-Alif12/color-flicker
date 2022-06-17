@@ -8,11 +8,12 @@ canvas.onclick = function () {
     if(i <  warna.length){
         canvas.style.backgroundColor = warna[i];
         text.textContent = textWarna[i];      
+        text.style.color = warna[i];
         i++;
     }else{
         i = 0
         canvas.style.backgroundColor = warna[i];
+        text.style.color = warna[i];
         text.textContent = textWarna[i];
-        console.info(i);
     }
 };

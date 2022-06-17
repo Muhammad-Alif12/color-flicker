@@ -20,12 +20,15 @@ header > h1 {
 }
 main {
     height: 80vh;
-    padding: 250px 0px;
+    padding: 250px 300px;
     
 }
 main > h1 {
+    background-color: white;
     text-align: center;
-    color: white;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 10px;
 }
 footer {
     padding: 20px;
