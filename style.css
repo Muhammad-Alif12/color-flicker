@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    position: relative;
+    top: 50%;
+    left: 48%;
+}
+header {
+    background-color: rgb(152, 129, 129);
+    height: 10vh;
+    padding: 15px;
+}
+header > h1 {
+    text-align: center;
+    color: black;
+}
+main {
+    height: 80vh;
+    padding: 250px 0px;
+    
+}
+main > h1 {
+    text-align: center;
+    color: white;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(152, 129, 129);
+    height: 10vh;
+}
